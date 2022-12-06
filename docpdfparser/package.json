@@ -1,0 +1,51 @@
+{
+  "name": "docpdfparser",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/lab": "^5.0.0-alpha.110",
+    "@mui/material": "^5.10.16",
+    "@mui/styled-engine-sc": "^5.10.16",
+    "@mui/x-data-grid": "^5.17.13",
+    "@mui/x-data-grid-pro": "^5.17.13",
+    "buffer": "^6.0.3",
+    "pdfreader": "^2.0.0",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^5.3.6",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "word-extractor": "^1.0.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
